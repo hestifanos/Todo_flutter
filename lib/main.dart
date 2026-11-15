@@ -90,7 +90,7 @@ class _HomeScreenState extends State<HomeScreen> {
             end: Alignment.bottomRight,
           ),
           image: const DecorationImage(
-            image: AssetImage('assets/todo.ppg'),
+            image: AssetImage('asset/todo.png'),
             fit: BoxFit.cover,
             opacity: 0.08,
           ),

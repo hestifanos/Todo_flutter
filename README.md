@@ -1,16 +1,24 @@
-# todo_flutter
+# Smart To-Do
 
-A new Flutter project.
+A Flutter task planner for creating tasks with a title, deadline, and description. The current implementation keeps tasks in memory for the active app session.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add tasks with deadlines and descriptions.
+- View tasks in a styled Material 3 interface.
+- Use Poppins typography and a bundled background image.
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK with Dart SDK `^3.9.2`
+- Android Studio, Xcode, or a supported Flutter desktop/web target
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run and test
+
+```bash
+flutter pub get
+flutter test
+flutter run
+```
+
+Tasks are not persisted between app restarts yet. The main UI and task model currently live in `lib/main.dart`; the bundled image is in `asset/`.
