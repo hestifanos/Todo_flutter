@@ -21,4 +21,4 @@ flutter test
 flutter run
 ```
 
-Tasks are not persisted between app restarts yet. The main UI and task model currently live in `lib/main.dart`; the bundled image is in `asset/`.
+
